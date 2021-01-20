@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "//enter3017sky.github.io/campfire/./precache-manifest.46a6fc1ad0264a28f8d74e29e0dfc8dd.js"
+  "//enter3017sky.github.io/campfire/precache-manifest.c155b3d69386fdd67daa0cbc85951d76.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("//enter3017sky.github.io/campfire/./index.html", {
+workbox.routing.registerNavigationRoute("//enter3017sky.github.io/campfire/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
